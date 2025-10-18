@@ -1,0 +1,221 @@
+[0.436s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.436s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8d7f3cd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8d9d1060>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8d9d1060>>)
+[1.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.258s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/utux/code/sensor_test'
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[1.312s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[1.312s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[1.312s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[1.312s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[1.312s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_imu_driver_cpp) by extensions ['ignore', 'ignore_ament_install']
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_imu_driver_cpp) by extension 'ignore'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_imu_driver_cpp) by extension 'ignore_ament_install'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_imu_driver_cpp) by extensions ['colcon_pkg']
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_imu_driver_cpp) by extension 'colcon_pkg'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_imu_driver_cpp) by extensions ['colcon_meta']
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_imu_driver_cpp) by extension 'colcon_meta'
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_imu_driver_cpp) by extensions ['ros']
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_imu_driver_cpp) by extension 'ros'
+[1.332s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uuv_imu_driver_cpp' with type 'ros.ament_cmake' and name 'uuv_imu_driver_cpp'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_imu_driver_py) by extensions ['ignore', 'ignore_ament_install']
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_imu_driver_py) by extension 'ignore'
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_imu_driver_py) by extension 'ignore_ament_install'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_imu_driver_py) by extensions ['colcon_pkg']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_imu_driver_py) by extension 'colcon_pkg'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_imu_driver_py) by extensions ['colcon_meta']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_imu_driver_py) by extension 'colcon_meta'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_imu_driver_py) by extensions ['ros']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_imu_driver_py) by extension 'ros'
+[1.337s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uuv_imu_driver_py' with type 'ros.ament_python' and name 'uuv_imu_driver_py'
+[1.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.413s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.413s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.426s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/utux/code/sensor_test/install
+[1.435s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[1.477s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.650s] Level 5:colcon.colcon_core.verb:set package 'uuv_imu_driver_cpp' build argument 'cmake_args' from command line to 'None'
+[1.650s] Level 5:colcon.colcon_core.verb:set package 'uuv_imu_driver_cpp' build argument 'cmake_target' from command line to 'None'
+[1.650s] Level 5:colcon.colcon_core.verb:set package 'uuv_imu_driver_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'uuv_imu_driver_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'uuv_imu_driver_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'uuv_imu_driver_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'uuv_imu_driver_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'uuv_imu_driver_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'uuv_imu_driver_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.651s] DEBUG:colcon.colcon_core.verb:Building package 'uuv_imu_driver_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/utux/code/sensor_test/build/uuv_imu_driver_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp', 'merge_install': False, 'path': '/home/utux/code/sensor_test/src/uuv_imu_driver_cpp', 'symlink_install': False, 'test_result_base': None}
+[1.653s] Level 5:colcon.colcon_core.verb:set package 'uuv_imu_driver_py' build argument 'cmake_args' from command line to 'None'
+[1.653s] Level 5:colcon.colcon_core.verb:set package 'uuv_imu_driver_py' build argument 'cmake_target' from command line to 'None'
+[1.653s] Level 5:colcon.colcon_core.verb:set package 'uuv_imu_driver_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.653s] Level 5:colcon.colcon_core.verb:set package 'uuv_imu_driver_py' build argument 'cmake_clean_cache' from command line to 'False'
+[1.653s] Level 5:colcon.colcon_core.verb:set package 'uuv_imu_driver_py' build argument 'cmake_clean_first' from command line to 'False'
+[1.653s] Level 5:colcon.colcon_core.verb:set package 'uuv_imu_driver_py' build argument 'cmake_force_configure' from command line to 'False'
+[1.654s] Level 5:colcon.colcon_core.verb:set package 'uuv_imu_driver_py' build argument 'ament_cmake_args' from command line to 'None'
+[1.654s] Level 5:colcon.colcon_core.verb:set package 'uuv_imu_driver_py' build argument 'catkin_cmake_args' from command line to 'None'
+[1.654s] Level 5:colcon.colcon_core.verb:set package 'uuv_imu_driver_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.654s] DEBUG:colcon.colcon_core.verb:Building package 'uuv_imu_driver_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/utux/code/sensor_test/build/uuv_imu_driver_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/utux/code/sensor_test/install/uuv_imu_driver_py', 'merge_install': False, 'path': '/home/utux/code/sensor_test/src/uuv_imu_driver_py', 'symlink_install': False, 'test_result_base': None}
+[1.654s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.658s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.659s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/utux/code/sensor_test/src/uuv_imu_driver_cpp' with build type 'ament_cmake'
+[1.660s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/utux/code/sensor_test/src/uuv_imu_driver_cpp'
+[1.668s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.669s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.670s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.689s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/utux/code/sensor_test/src/uuv_imu_driver_py' with build type 'ament_python'
+[1.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('uuv_imu_driver_py', 'ament_prefix_path')
+[1.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utux/code/sensor_test/install/uuv_imu_driver_py/share/uuv_imu_driver_py/hook/ament_prefix_path.ps1'
+[1.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utux/code/sensor_test/install/uuv_imu_driver_py/share/uuv_imu_driver_py/hook/ament_prefix_path.dsv'
+[1.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utux/code/sensor_test/install/uuv_imu_driver_py/share/uuv_imu_driver_py/hook/ament_prefix_path.sh'
+[1.700s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.701s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utux/code/sensor_test/build/uuv_imu_driver_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utux/code/sensor_test/install/uuv_imu_driver_py:/opt/ros/humble /usr/bin/cmake --build /home/utux/code/sensor_test/build/uuv_imu_driver_cpp -- -j4 -l4
+[3.231s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/utux/code/sensor_test/src/uuv_imu_driver_py'
+[3.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utux/code/sensor_test/build/uuv_imu_driver_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utux/code/sensor_test/install/uuv_imu_driver_py:/opt/ros/humble /usr/bin/cmake --build /home/utux/code/sensor_test/build/uuv_imu_driver_cpp -- -j4 -l4
+[4.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utux/code/sensor_test/build/uuv_imu_driver_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utux/code/sensor_test/install/uuv_imu_driver_py:/opt/ros/humble /usr/bin/cmake --install /home/utux/code/sensor_test/build/uuv_imu_driver_cpp
+[4.967s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uuv_imu_driver_cpp)
+[4.982s] Level 1:colcon.colcon_core.environment:checking '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp' for CMake module files
+[4.988s] Level 1:colcon.colcon_core.environment:checking '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp' for CMake config files
+[4.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('uuv_imu_driver_cpp', 'cmake_prefix_path')
+[4.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/hook/cmake_prefix_path.ps1'
+[5.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/hook/cmake_prefix_path.dsv'
+[5.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/hook/cmake_prefix_path.sh'
+[5.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utux/code/sensor_test/build/uuv_imu_driver_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utux/code/sensor_test/install/uuv_imu_driver_py:/opt/ros/humble /usr/bin/cmake --install /home/utux/code/sensor_test/build/uuv_imu_driver_cpp
+[5.013s] Level 1:colcon.colcon_core.environment:checking '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/lib'
+[5.016s] Level 1:colcon.colcon_core.environment:checking '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/bin'
+[5.017s] Level 1:colcon.colcon_core.environment:checking '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/lib/pkgconfig/uuv_imu_driver_cpp.pc'
+[5.019s] Level 1:colcon.colcon_core.environment:checking '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/lib/python3.10/site-packages'
+[5.021s] Level 1:colcon.colcon_core.environment:checking '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/bin'
+[5.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/package.ps1'
+[5.029s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/package.dsv'
+[5.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/package.sh'
+[5.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/package.bash'
+[5.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/package.zsh'
+[5.055s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/colcon-core/packages/uuv_imu_driver_cpp)
+[5.062s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uuv_imu_driver_cpp)
+[5.066s] Level 1:colcon.colcon_core.environment:checking '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp' for CMake module files
+[5.072s] Level 1:colcon.colcon_core.environment:checking '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp' for CMake config files
+[5.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('uuv_imu_driver_cpp', 'cmake_prefix_path')
+[5.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/hook/cmake_prefix_path.ps1'
+[5.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/hook/cmake_prefix_path.dsv'
+[5.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/hook/cmake_prefix_path.sh'
+[5.097s] Level 1:colcon.colcon_core.environment:checking '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/lib'
+[5.098s] Level 1:colcon.colcon_core.environment:checking '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/bin'
+[5.099s] Level 1:colcon.colcon_core.environment:checking '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/lib/pkgconfig/uuv_imu_driver_cpp.pc'
+[5.102s] Level 1:colcon.colcon_core.environment:checking '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/lib/python3.10/site-packages'
+[5.104s] Level 1:colcon.colcon_core.environment:checking '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/bin'
+[5.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/package.ps1'
+[5.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/package.dsv'
+[5.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/package.sh'
+[5.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/package.bash'
+[5.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/package.zsh'
+[5.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/colcon-core/packages/uuv_imu_driver_cpp)
+[5.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utux/code/sensor_test/src/uuv_imu_driver_py': PYTHONPATH=/home/utux/code/sensor_test/build/uuv_imu_driver_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utux/code/sensor_test/install/uuv_imu_driver_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uuv_imu_driver_py build --build-base /home/utux/code/sensor_test/build/uuv_imu_driver_py/build install --record /home/utux/code/sensor_test/build/uuv_imu_driver_py/install.log --single-version-externally-managed install_data
+[6.782s] Level 1:colcon.colcon_core.environment:checking '/home/utux/code/sensor_test/install/uuv_imu_driver_py' for CMake module files
+[6.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utux/code/sensor_test/src/uuv_imu_driver_py' returned '0': PYTHONPATH=/home/utux/code/sensor_test/build/uuv_imu_driver_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utux/code/sensor_test/install/uuv_imu_driver_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uuv_imu_driver_py build --build-base /home/utux/code/sensor_test/build/uuv_imu_driver_py/build install --record /home/utux/code/sensor_test/build/uuv_imu_driver_py/install.log --single-version-externally-managed install_data
+[6.786s] Level 1:colcon.colcon_core.environment:checking '/home/utux/code/sensor_test/install/uuv_imu_driver_py' for CMake config files
+[6.790s] Level 1:colcon.colcon_core.environment:checking '/home/utux/code/sensor_test/install/uuv_imu_driver_py/lib'
+[6.791s] Level 1:colcon.colcon_core.environment:checking '/home/utux/code/sensor_test/install/uuv_imu_driver_py/bin'
+[6.791s] Level 1:colcon.colcon_core.environment:checking '/home/utux/code/sensor_test/install/uuv_imu_driver_py/lib/pkgconfig/uuv_imu_driver_py.pc'
+[6.792s] Level 1:colcon.colcon_core.environment:checking '/home/utux/code/sensor_test/install/uuv_imu_driver_py/lib/python3.10/site-packages'
+[6.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('uuv_imu_driver_py', 'pythonpath')
+[6.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utux/code/sensor_test/install/uuv_imu_driver_py/share/uuv_imu_driver_py/hook/pythonpath.ps1'
+[6.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utux/code/sensor_test/install/uuv_imu_driver_py/share/uuv_imu_driver_py/hook/pythonpath.dsv'
+[6.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utux/code/sensor_test/install/uuv_imu_driver_py/share/uuv_imu_driver_py/hook/pythonpath.sh'
+[6.802s] Level 1:colcon.colcon_core.environment:checking '/home/utux/code/sensor_test/install/uuv_imu_driver_py/bin'
+[6.802s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uuv_imu_driver_py)
+[6.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/utux/code/sensor_test/install/uuv_imu_driver_py/share/uuv_imu_driver_py/package.ps1'
+[6.806s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utux/code/sensor_test/install/uuv_imu_driver_py/share/uuv_imu_driver_py/package.dsv'
+[6.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/utux/code/sensor_test/install/uuv_imu_driver_py/share/uuv_imu_driver_py/package.sh'
+[6.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/utux/code/sensor_test/install/uuv_imu_driver_py/share/uuv_imu_driver_py/package.bash'
+[6.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/utux/code/sensor_test/install/uuv_imu_driver_py/share/uuv_imu_driver_py/package.zsh'
+[6.815s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utux/code/sensor_test/install/uuv_imu_driver_py/share/colcon-core/packages/uuv_imu_driver_py)
+[6.816s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.817s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.818s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.818s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.841s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.841s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.842s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.842s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.845s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[6.845s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.846s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/utux/code/sensor_test/install/local_setup.ps1'
+[6.850s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/utux/code/sensor_test/install/_local_setup_util_ps1.py'
+[6.857s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/utux/code/sensor_test/install/setup.ps1'
+[6.862s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/utux/code/sensor_test/install/local_setup.sh'
+[6.866s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/utux/code/sensor_test/install/_local_setup_util_sh.py'
+[6.869s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/utux/code/sensor_test/install/setup.sh'
+[6.874s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/utux/code/sensor_test/install/local_setup.bash'
+[6.877s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/utux/code/sensor_test/install/setup.bash'
+[6.883s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/utux/code/sensor_test/install/local_setup.zsh'
+[6.885s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/utux/code/sensor_test/install/setup.zsh'

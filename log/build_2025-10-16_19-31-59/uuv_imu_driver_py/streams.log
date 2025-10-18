@@ -1,0 +1,25 @@
+[2.949s] Invoking command in '/home/utux/code/sensor_test/src/uuv_imu_driver_py': PYTHONPATH=/home/utux/code/sensor_test/build/uuv_imu_driver_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utux/code/sensor_test/install/uuv_imu_driver_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uuv_imu_driver_py build --build-base /home/utux/code/sensor_test/build/uuv_imu_driver_py/build install --record /home/utux/code/sensor_test/build/uuv_imu_driver_py/install.log --single-version-externally-managed install_data
+[4.077s] running egg_info
+[4.080s] writing ../../build/uuv_imu_driver_py/uuv_imu_driver_py.egg-info/PKG-INFO
+[4.081s] writing dependency_links to ../../build/uuv_imu_driver_py/uuv_imu_driver_py.egg-info/dependency_links.txt
+[4.082s] writing entry points to ../../build/uuv_imu_driver_py/uuv_imu_driver_py.egg-info/entry_points.txt
+[4.083s] writing requirements to ../../build/uuv_imu_driver_py/uuv_imu_driver_py.egg-info/requires.txt
+[4.083s] writing top-level names to ../../build/uuv_imu_driver_py/uuv_imu_driver_py.egg-info/top_level.txt
+[4.094s] reading manifest file '../../build/uuv_imu_driver_py/uuv_imu_driver_py.egg-info/SOURCES.txt'
+[4.095s] adding license file 'LICENSE'
+[4.098s] writing manifest file '../../build/uuv_imu_driver_py/uuv_imu_driver_py.egg-info/SOURCES.txt'
+[4.099s] running build
+[4.100s] running build_py
+[4.101s] copying uuv_imu_driver_py/imu_driver.py -> /home/utux/code/sensor_test/build/uuv_imu_driver_py/build/lib/uuv_imu_driver_py
+[4.103s] running install
+[4.105s] running install_lib
+[4.110s] copying /home/utux/code/sensor_test/build/uuv_imu_driver_py/build/lib/uuv_imu_driver_py/imu_driver.py -> /home/utux/code/sensor_test/install/uuv_imu_driver_py/lib/python3.10/site-packages/uuv_imu_driver_py
+[4.114s] byte-compiling /home/utux/code/sensor_test/install/uuv_imu_driver_py/lib/python3.10/site-packages/uuv_imu_driver_py/imu_driver.py to imu_driver.cpython-310.pyc
+[4.117s] running install_data
+[4.118s] running install_egg_info
+[4.125s] removing '/home/utux/code/sensor_test/install/uuv_imu_driver_py/lib/python3.10/site-packages/uuv_imu_driver_py-1.0.0-py3.10.egg-info' (and everything under it)
+[4.127s] Copying ../../build/uuv_imu_driver_py/uuv_imu_driver_py.egg-info to /home/utux/code/sensor_test/install/uuv_imu_driver_py/lib/python3.10/site-packages/uuv_imu_driver_py-1.0.0-py3.10.egg-info
+[4.133s] running install_scripts
+[4.215s] Installing imu_publisher script to /home/utux/code/sensor_test/install/uuv_imu_driver_py/lib/uuv_imu_driver_py
+[4.217s] writing list of installed files to '/home/utux/code/sensor_test/build/uuv_imu_driver_py/install.log'
+[4.340s] Invoked command in '/home/utux/code/sensor_test/src/uuv_imu_driver_py' returned '0': PYTHONPATH=/home/utux/code/sensor_test/build/uuv_imu_driver_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utux/code/sensor_test/install/uuv_imu_driver_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uuv_imu_driver_py build --build-base /home/utux/code/sensor_test/build/uuv_imu_driver_py/build install --record /home/utux/code/sensor_test/build/uuv_imu_driver_py/install.log --single-version-externally-managed install_data

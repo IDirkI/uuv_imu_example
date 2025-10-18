@@ -1,0 +1,5 @@
+  File "/home/utux/code/sensor_test/install/uuv_imu_driver_py/lib/python3.10/site-packages/uuv_imu_driver_py/imu_driver.py", line 6
+    from math import atan, sqrt, pi, abs()
+                                        ^
+SyntaxError: invalid syntax
+

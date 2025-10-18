@@ -1,0 +1,177 @@
+[0.000000] (-) TimerEvent: {}
+[0.011350] (uuv_imu_driver_cpp) JobQueued: {'identifier': 'uuv_imu_driver_cpp', 'dependencies': OrderedDict()}
+[0.011577] (uuv_imu_driver_py) JobQueued: {'identifier': 'uuv_imu_driver_py', 'dependencies': OrderedDict()}
+[0.011729] (uuv_imu_driver_cpp) JobStarted: {'identifier': 'uuv_imu_driver_cpp'}
+[0.096558] (-) TimerEvent: {}
+[0.129988] (uuv_imu_driver_py) JobStarted: {'identifier': 'uuv_imu_driver_py'}
+[0.196789] (-) TimerEvent: {}
+[0.216736] (uuv_imu_driver_cpp) JobProgress: {'identifier': 'uuv_imu_driver_cpp', 'progress': 'cmake'}
+[0.225581] (uuv_imu_driver_cpp) JobProgress: {'identifier': 'uuv_imu_driver_cpp', 'progress': 'build'}
+[0.229905] (uuv_imu_driver_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/utux/code/sensor_test/build/uuv_imu_driver_cpp', '--', '-j4', '-l4'], 'cwd': '/home/utux/code/sensor_test/build/uuv_imu_driver_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'utux'), ('SSH_CLIENT', '192.168.2.25 51183 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/utux'), ('OLDPWD', '/home/utux/code'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/utux/code/sensor_test/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'utux'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/utux/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXvBMXz/agent.996'), ('ROS_DOMAIN_ID', '8'), ('AMENT_PREFIX_PATH', '/home/utux/code/sensor_test/install/uuv_imu_driver_py:/home/utux/code/sensor_test/install/uuv_imu_driver_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/utux/code/sensor_test/build/uuv_imu_driver_cpp'), ('SSH_CONNECTION', '192.168.2.25 51183 192.168.2.52 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/utux/code/sensor_test/install/uuv_imu_driver_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp:/home/utux/code/sensor_test/install/uuv_imu_driver_py:/opt/ros/humble')]), 'shell': False}
+[0.297058] (-) TimerEvent: {}
+[0.399235] (-) TimerEvent: {}
+[0.501063] (-) TimerEvent: {}
+[0.603231] (-) TimerEvent: {}
+[0.705060] (-) TimerEvent: {}
+[0.807164] (-) TimerEvent: {}
+[0.911973] (-) TimerEvent: {}
+[0.920888] (uuv_imu_driver_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_publisher\x1b[0m\n'}
+[1.015215] (-) TimerEvent: {}
+[1.116292] (-) TimerEvent: {}
+[1.217113] (-) TimerEvent: {}
+[1.222421] (uuv_imu_driver_cpp) StdoutLine: {'line': b'[100%] Built target imu_publisher\n'}
+[1.321342] (-) TimerEvent: {}
+[1.429115] (-) TimerEvent: {}
+[1.530791] (-) TimerEvent: {}
+[1.634426] (-) TimerEvent: {}
+[1.735291] (-) TimerEvent: {}
+[1.836928] (-) TimerEvent: {}
+[1.945945] (-) TimerEvent: {}
+[2.050488] (-) TimerEvent: {}
+[2.153323] (-) TimerEvent: {}
+[2.257122] (-) TimerEvent: {}
+[2.358989] (-) TimerEvent: {}
+[2.459854] (-) TimerEvent: {}
+[2.560689] (-) TimerEvent: {}
+[2.661644] (-) TimerEvent: {}
+[2.762651] (-) TimerEvent: {}
+[2.863793] (-) TimerEvent: {}
+[2.966435] (-) TimerEvent: {}
+[3.067666] (-) TimerEvent: {}
+[3.148441] (uuv_imu_driver_cpp) CommandEnded: {'returncode': 0}
+[3.168042] (uuv_imu_driver_cpp) JobProgress: {'identifier': 'uuv_imu_driver_cpp', 'progress': 'install'}
+[3.168349] (-) TimerEvent: {}
+[3.228321] (uuv_imu_driver_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/utux/code/sensor_test/build/uuv_imu_driver_cpp'], 'cwd': '/home/utux/code/sensor_test/build/uuv_imu_driver_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'utux'), ('SSH_CLIENT', '192.168.2.25 51183 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/utux'), ('OLDPWD', '/home/utux/code'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/utux/code/sensor_test/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'utux'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/utux/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXvBMXz/agent.996'), ('ROS_DOMAIN_ID', '8'), ('AMENT_PREFIX_PATH', '/home/utux/code/sensor_test/install/uuv_imu_driver_py:/home/utux/code/sensor_test/install/uuv_imu_driver_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/utux/code/sensor_test/build/uuv_imu_driver_cpp'), ('SSH_CONNECTION', '192.168.2.25 51183 192.168.2.52 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/utux/code/sensor_test/install/uuv_imu_driver_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp:/home/utux/code/sensor_test/install/uuv_imu_driver_py:/opt/ros/humble')]), 'shell': False}
+[3.268697] (-) TimerEvent: {}
+[3.371039] (-) TimerEvent: {}
+[3.430606] (uuv_imu_driver_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.445703] (uuv_imu_driver_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/utux/code/sensor_test/install/uuv_imu_driver_cpp/lib/uuv_imu_driver_cpp/imu_publisher\n'}
+[3.465621] (uuv_imu_driver_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/launch\n'}
+[3.477475] (-) TimerEvent: {}
+[3.481195] (uuv_imu_driver_cpp) StdoutLine: {'line': b'-- Installing: /home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/launch/imu_launch.py\n'}
+[3.484398] (uuv_imu_driver_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/ament_index/resource_index/package_run_dependencies/uuv_imu_driver_cpp\n'}
+[3.486172] (uuv_imu_driver_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/ament_index/resource_index/parent_prefix_path/uuv_imu_driver_cpp\n'}
+[3.487837] (uuv_imu_driver_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/environment/ament_prefix_path.sh\n'}
+[3.489497] (uuv_imu_driver_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/environment/ament_prefix_path.dsv\n'}
+[3.499467] (uuv_imu_driver_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/environment/path.sh\n'}
+[3.501099] (uuv_imu_driver_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/environment/path.dsv\n'}
+[3.502965] (uuv_imu_driver_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/local_setup.bash\n'}
+[3.504592] (uuv_imu_driver_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/local_setup.sh\n'}
+[3.511620] (uuv_imu_driver_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/local_setup.zsh\n'}
+[3.513516] (uuv_imu_driver_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/local_setup.dsv\n'}
+[3.515486] (uuv_imu_driver_cpp) StdoutLine: {'line': b'-- Installing: /home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/package.dsv\n'}
+[3.521937] (uuv_imu_driver_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/ament_index/resource_index/packages/uuv_imu_driver_cpp\n'}
+[3.523945] (uuv_imu_driver_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/cmake/uuv_imu_driver_cppConfig.cmake\n'}
+[3.529744] (uuv_imu_driver_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/cmake/uuv_imu_driver_cppConfig-version.cmake\n'}
+[3.536751] (uuv_imu_driver_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/utux/code/sensor_test/install/uuv_imu_driver_cpp/share/uuv_imu_driver_cpp/package.xml\n'}
+[3.574542] (uuv_imu_driver_cpp) CommandEnded: {'returncode': 0}
+[3.583449] (-) TimerEvent: {}
+[3.685507] (-) TimerEvent: {}
+[3.788456] (-) TimerEvent: {}
+[3.900586] (-) TimerEvent: {}
+[4.004515] (-) TimerEvent: {}
+[4.106554] (-) TimerEvent: {}
+[4.155847] (uuv_imu_driver_cpp) JobEnded: {'identifier': 'uuv_imu_driver_cpp', 'rc': 0}
+[4.206771] (-) TimerEvent: {}
+[4.307976] (-) TimerEvent: {}
+[4.409513] (-) TimerEvent: {}
+[4.511271] (-) TimerEvent: {}
+[4.614417] (-) TimerEvent: {}
+[4.721607] (-) TimerEvent: {}
+[4.829572] (-) TimerEvent: {}
+[4.931285] (-) TimerEvent: {}
+[5.032995] (-) TimerEvent: {}
+[5.143259] (-) TimerEvent: {}
+[5.245010] (-) TimerEvent: {}
+[5.346946] (-) TimerEvent: {}
+[5.451413] (-) TimerEvent: {}
+[5.553774] (-) TimerEvent: {}
+[5.656304] (-) TimerEvent: {}
+[5.758553] (-) TimerEvent: {}
+[5.862736] (-) TimerEvent: {}
+[5.972213] (-) TimerEvent: {}
+[6.073286] (-) TimerEvent: {}
+[6.175314] (-) TimerEvent: {}
+[6.277434] (-) TimerEvent: {}
+[6.380270] (-) TimerEvent: {}
+[6.485070] (-) TimerEvent: {}
+[6.592791] (-) TimerEvent: {}
+[6.703983] (-) TimerEvent: {}
+[6.806162] (-) TimerEvent: {}
+[6.908246] (-) TimerEvent: {}
+[7.011116] (-) TimerEvent: {}
+[7.113119] (-) TimerEvent: {}
+[7.215223] (-) TimerEvent: {}
+[7.322516] (-) TimerEvent: {}
+[7.424490] (-) TimerEvent: {}
+[7.527221] (-) TimerEvent: {}
+[7.629695] (-) TimerEvent: {}
+[7.732226] (-) TimerEvent: {}
+[7.835077] (-) TimerEvent: {}
+[7.937119] (-) TimerEvent: {}
+[8.038010] (-) TimerEvent: {}
+[8.140275] (-) TimerEvent: {}
+[8.241263] (-) TimerEvent: {}
+[8.342756] (-) TimerEvent: {}
+[8.444895] (-) TimerEvent: {}
+[8.548214] (-) TimerEvent: {}
+[8.652878] (-) TimerEvent: {}
+[8.757667] (-) TimerEvent: {}
+[8.860022] (-) TimerEvent: {}
+[8.962293] (-) TimerEvent: {}
+[9.064616] (-) TimerEvent: {}
+[9.168454] (-) TimerEvent: {}
+[9.222584] (uuv_imu_driver_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/uuv_imu_driver_py', 'build', '--build-base', '/home/utux/code/sensor_test/build/uuv_imu_driver_py/build', 'install', '--record', '/home/utux/code/sensor_test/build/uuv_imu_driver_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/utux/code/sensor_test/src/uuv_imu_driver_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'utux', 'SSH_CLIENT': '192.168.2.25 51183 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/utux', 'OLDPWD': '/home/utux/code', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/utux/code/sensor_test/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'utux', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/utux/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXvBMXz/agent.996', 'ROS_DOMAIN_ID': '8', 'AMENT_PREFIX_PATH': '/home/utux/code/sensor_test/install/uuv_imu_driver_py:/home/utux/code/sensor_test/install/uuv_imu_driver_cpp:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/utux/code/sensor_test/build/uuv_imu_driver_py', 'SSH_CONNECTION': '192.168.2.25 51183 192.168.2.52 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/utux/code/sensor_test/build/uuv_imu_driver_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utux/code/sensor_test/install/uuv_imu_driver_py/lib/python3.10/site-packages:/home/utux/code/sensor_test/install/uuv_imu_driver_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/utux/code/sensor_test/install/uuv_imu_driver_cpp'}, 'shell': False}
+[9.270457] (-) TimerEvent: {}
+[9.383928] (-) TimerEvent: {}
+[9.487240] (-) TimerEvent: {}
+[9.592190] (-) TimerEvent: {}
+[9.695668] (-) TimerEvent: {}
+[9.797829] (-) TimerEvent: {}
+[9.900003] (-) TimerEvent: {}
+[10.004011] (-) TimerEvent: {}
+[10.109533] (-) TimerEvent: {}
+[10.211835] (-) TimerEvent: {}
+[10.316793] (-) TimerEvent: {}
+[10.421095] (-) TimerEvent: {}
+[10.523155] (-) TimerEvent: {}
+[10.624990] (-) TimerEvent: {}
+[10.727141] (-) TimerEvent: {}
+[10.829176] (-) TimerEvent: {}
+[10.935353] (-) TimerEvent: {}
+[11.037489] (-) TimerEvent: {}
+[11.139640] (-) TimerEvent: {}
+[11.245884] (-) TimerEvent: {}
+[11.353172] (-) TimerEvent: {}
+[11.459033] (-) TimerEvent: {}
+[11.561939] (-) TimerEvent: {}
+[11.664910] (-) TimerEvent: {}
+[11.766839] (-) TimerEvent: {}
+[11.828983] (uuv_imu_driver_py) StdoutLine: {'line': b'running egg_info\n'}
+[11.834037] (uuv_imu_driver_py) StdoutLine: {'line': b'writing ../../build/uuv_imu_driver_py/uuv_imu_driver_py.egg-info/PKG-INFO\n'}
+[11.836567] (uuv_imu_driver_py) StdoutLine: {'line': b'writing dependency_links to ../../build/uuv_imu_driver_py/uuv_imu_driver_py.egg-info/dependency_links.txt\n'}
+[11.839725] (uuv_imu_driver_py) StdoutLine: {'line': b'writing entry points to ../../build/uuv_imu_driver_py/uuv_imu_driver_py.egg-info/entry_points.txt\n'}
+[11.841722] (uuv_imu_driver_py) StdoutLine: {'line': b'writing requirements to ../../build/uuv_imu_driver_py/uuv_imu_driver_py.egg-info/requires.txt\n'}
+[11.842516] (uuv_imu_driver_py) StdoutLine: {'line': b'writing top-level names to ../../build/uuv_imu_driver_py/uuv_imu_driver_py.egg-info/top_level.txt\n'}
+[11.851824] (uuv_imu_driver_py) StdoutLine: {'line': b"reading manifest file '../../build/uuv_imu_driver_py/uuv_imu_driver_py.egg-info/SOURCES.txt'\n"}
+[11.858447] (uuv_imu_driver_py) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[11.861951] (uuv_imu_driver_py) StdoutLine: {'line': b"writing manifest file '../../build/uuv_imu_driver_py/uuv_imu_driver_py.egg-info/SOURCES.txt'\n"}
+[11.864587] (uuv_imu_driver_py) StdoutLine: {'line': b'running build\n'}
+[11.866045] (uuv_imu_driver_py) StdoutLine: {'line': b'running build_py\n'}
+[11.867899] (-) TimerEvent: {}
+[11.869955] (uuv_imu_driver_py) StdoutLine: {'line': b'running install\n'}
+[11.871183] (uuv_imu_driver_py) StdoutLine: {'line': b'running install_lib\n'}
+[11.881230] (uuv_imu_driver_py) StdoutLine: {'line': b'running install_data\n'}
+[11.882139] (uuv_imu_driver_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.891254] (uuv_imu_driver_py) StdoutLine: {'line': b"removing '/home/utux/code/sensor_test/install/uuv_imu_driver_py/lib/python3.10/site-packages/uuv_imu_driver_py-1.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.896615] (uuv_imu_driver_py) StdoutLine: {'line': b'Copying ../../build/uuv_imu_driver_py/uuv_imu_driver_py.egg-info to /home/utux/code/sensor_test/install/uuv_imu_driver_py/lib/python3.10/site-packages/uuv_imu_driver_py-1.0.0-py3.10.egg-info\n'}
+[11.910138] (uuv_imu_driver_py) StdoutLine: {'line': b'running install_scripts\n'}
+[11.968172] (-) TimerEvent: {}
+[12.053180] (uuv_imu_driver_py) StdoutLine: {'line': b'Installing imu_publisher script to /home/utux/code/sensor_test/install/uuv_imu_driver_py/lib/uuv_imu_driver_py\n'}
+[12.059545] (uuv_imu_driver_py) StdoutLine: {'line': b"writing list of installed files to '/home/utux/code/sensor_test/build/uuv_imu_driver_py/install.log'\n"}
+[12.068429] (-) TimerEvent: {}
+[12.174517] (-) TimerEvent: {}
+[12.281540] (-) TimerEvent: {}
+[12.291854] (uuv_imu_driver_py) CommandEnded: {'returncode': 0}
+[12.363508] (uuv_imu_driver_py) JobEnded: {'identifier': 'uuv_imu_driver_py', 'rc': 0}
+[12.368035] (-) EventReactorShutdown: {}

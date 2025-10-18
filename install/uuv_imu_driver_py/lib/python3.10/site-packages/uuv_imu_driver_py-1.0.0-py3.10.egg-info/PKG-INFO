@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: uuv-imu-driver-py
+Version: 1.0.0
+Summary: Demo: Flight Controller IMU driver example
+Home-page: UNKNOWN
+Maintainer: Berk
+Maintainer-email: berkyilmaz2005@gmail.com
+License: Apache-2.0
+Platform: UNKNOWN
+Provides-Extra: test
+License-File: LICENSE
+
+UNKNOWN
+

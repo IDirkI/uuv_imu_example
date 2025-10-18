@@ -1,0 +1,46 @@
+[0.043s] Invoking command in '/home/utux/code/sensor_test/build/uuv_imu_driver_cpp': CMAKE_PREFIX_PATH=/home/utux/code/sensor_test/install/uuv_imu_driver_py:/home/utux/code/sensor_test/install/uuv_imu_driver:/opt/ros/humble /usr/bin/cmake /home/utux/code/sensor_test/src/uuv_imu_driver_cpp -DCMAKE_INSTALL_PREFIX=/home/utux/code/sensor_test/install/uuv_imu_driver_cpp
+[0.465s] -- The C compiler identification is GNU 11.4.0
+[0.763s] -- The CXX compiler identification is GNU 11.4.0
+[0.799s] -- Detecting C compiler ABI info
+[1.198s] -- Detecting C compiler ABI info - done
+[1.223s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.230s] -- Detecting C compile features
+[1.232s] -- Detecting C compile features - done
+[1.248s] -- Detecting CXX compiler ABI info
+[1.644s] -- Detecting CXX compiler ABI info - done
+[1.670s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.671s] -- Detecting CXX compile features
+[1.672s] -- Detecting CXX compile features - done
+[1.768s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.592s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.413s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[3.941s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.007s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.097s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.415s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.916s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.954s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.652s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.902s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.272s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.388s] -- Looking for pthread.h
+[6.751s] -- Looking for pthread.h - found
+[6.754s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.155s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.160s] -- Found Threads: TRUE  
+[7.723s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.407s] -- Configuring done
+[8.495s] -- Generating done
+[8.515s] -- Build files have been written to: /home/utux/code/sensor_test/build/uuv_imu_driver_cpp
+[8.565s] Invoked command in '/home/utux/code/sensor_test/build/uuv_imu_driver_cpp' returned '0': CMAKE_PREFIX_PATH=/home/utux/code/sensor_test/install/uuv_imu_driver_py:/home/utux/code/sensor_test/install/uuv_imu_driver:/opt/ros/humble /usr/bin/cmake /home/utux/code/sensor_test/src/uuv_imu_driver_cpp -DCMAKE_INSTALL_PREFIX=/home/utux/code/sensor_test/install/uuv_imu_driver_cpp
+[8.568s] Invoking command in '/home/utux/code/sensor_test/build/uuv_imu_driver_cpp': CMAKE_PREFIX_PATH=/home/utux/code/sensor_test/install/uuv_imu_driver_py:/home/utux/code/sensor_test/install/uuv_imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/utux/code/sensor_test/build/uuv_imu_driver_cpp -- -j4 -l4
+[8.882s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_publisher.dir/src/imu_publisher.cpp.o[0m
+[10.834s] [01m[K/home/utux/code/sensor_test/src/uuv_imu_driver_cpp/src/imu_publisher.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kuuv-imu_driver/bindings.h: No such file or directory
+[10.835s]     9 | #include [01;31m[K"uuv-imu_driver/bindings.h"[m[K
+[10.835s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.836s] compilation terminated.
+[10.846s] gmake[2]: *** [CMakeFiles/imu_publisher.dir/build.make:76: CMakeFiles/imu_publisher.dir/src/imu_publisher.cpp.o] Error 1
+[10.847s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/imu_publisher.dir/all] Error 2
+[10.848s] gmake: *** [Makefile:146: all] Error 2
+[10.855s] Invoked command in '/home/utux/code/sensor_test/build/uuv_imu_driver_cpp' returned '2': CMAKE_PREFIX_PATH=/home/utux/code/sensor_test/install/uuv_imu_driver_py:/home/utux/code/sensor_test/install/uuv_imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/utux/code/sensor_test/build/uuv_imu_driver_cpp -- -j4 -l4

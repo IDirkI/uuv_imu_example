@@ -1,0 +1,10 @@
+[0.089s] Invoking command in '/home/utux/code/sensor_test/build/uuv_imu_driver_cpp': CMAKE_PREFIX_PATH=/home/utux/code/sensor_test/install/uuv_imu_driver_py:/home/utux/code/sensor_test/install/uuv_imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/utux/code/sensor_test/build/uuv_imu_driver_cpp -- -j4 -l4
+[0.521s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_publisher.dir/src/imu_publisher.cpp.o[0m
+[7.249s] [01m[K/home/utux/code/sensor_test/src/uuv_imu_driver_cpp/src/imu_publisher.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kuuv_imu_driver/bindings.h: No such file or directory
+[7.250s]     9 | #include [01;31m[K"uuv_imu_driver/bindings.h"[m[K
+[7.250s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.251s] compilation terminated.
+[7.265s] gmake[2]: *** [CMakeFiles/imu_publisher.dir/build.make:76: CMakeFiles/imu_publisher.dir/src/imu_publisher.cpp.o] Error 1
+[7.268s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/imu_publisher.dir/all] Error 2
+[7.273s] gmake: *** [Makefile:146: all] Error 2
+[7.274s] Invoked command in '/home/utux/code/sensor_test/build/uuv_imu_driver_cpp' returned '2': CMAKE_PREFIX_PATH=/home/utux/code/sensor_test/install/uuv_imu_driver_py:/home/utux/code/sensor_test/install/uuv_imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/utux/code/sensor_test/build/uuv_imu_driver_cpp -- -j4 -l4
